@@ -9,9 +9,8 @@ import java.util.ArrayList;
 // O/P: 1 should be placed at first value and the other numbers should be sorted as a descending order?
 
 public class SortWithFixedIndex {
-	Integer max;
 	public void sortArray(ArrayList<Integer> arraylist){
-		for (int i = 1; i < arraylist.size(); i++) {
+		for (int  = 1; i < arraylist.size(); i++) {
 
 	          for (int j = arraylist.size() - 1; j > i; j--) {
 	              if (arraylist.get(i) < arraylist.get(j)) {
@@ -26,6 +25,8 @@ public class SortWithFixedIndex {
 	      }
 		System.out.println(arraylist);
 		System.out.println("Hello sanjay");
+		System.out.println("checking email");
+		
 	}
 	
 
