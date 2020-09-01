@@ -25,6 +25,7 @@ public class SortWithFixedIndex {
 
 	      }
 		System.out.println(arraylist);
+		System.out.println("Hello sanjay");
 	}
 	
 
