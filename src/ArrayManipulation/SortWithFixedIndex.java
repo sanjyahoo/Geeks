@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 public class SortWithFixedIndex {
 	public void sortArray(ArrayList<Integer> arraylist){
-		for (int  = 1; i < arraylist.size(); i++) {
+		for (int i = 1; i < arraylist.size(); i++) {
 
 	          for (int j = arraylist.size() - 1; j > i; j--) {
 	              if (arraylist.get(i) < arraylist.get(j)) {
